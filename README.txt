@@ -1,7 +1,7 @@
 C_Reference
 ===========
 
-A Short (~200 lines) C Reference
+A Short (~200 lines) & Incomplete C Reference
 
 //a C reference for practioners
 
