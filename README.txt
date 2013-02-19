@@ -98,6 +98,7 @@ int open(char *filename, int flags, mode_t mode) // flags - O_RDONLY, O_WRONLY, 
 int close(int fd)
 ssize_t read(int fd, void *buf, size_t n) //-1 error, 0 EOF
 ssize_t write(int fd, const void *buf, size_t n)
+off_t lseek(int fd, off_t offset, int whence) //SEEK_SET,SEEK_CUR,SEEK_END
 int stat(const char *filename, struct stat *buf)
 int fstat(int fd, struct stat *buf)
 struct stat {
